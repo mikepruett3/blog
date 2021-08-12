@@ -1,4 +1,4 @@
-baseURL = "https://mikepruett3.github.io/"
+baseURL = "https://www.nixdevil.com/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme="hugo-theme-bootstrap"
