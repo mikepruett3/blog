@@ -1,4 +1,21 @@
 baseURL = "https://mikepruett3.github.io/"
 languageCode = "en-us"
-title = "My New Hugo Site"
-theme="hugo-theme-bootstrap"
+title = "A haven for Unix & Linux deviants"
+theme = "hugo-theme-bootstrap"
+enableEmoji = "true"
+color = "dark"
+palette = "blue"
+paginate = "5"
+
+[author]
+name = "Mike Pruett"
+avatar = "/uploads/avatar.jpg"
+bio = "A haven for Unix & Linux deviants"
+company = "Nixdevil.com"
+location = "Texas"
+
+[social]
+github = "mikepruett3"
+reddit = "Human_Cartographer"
+linkedin = "in/mpruett"
+youtube = "UCZ-i9SPvPLMQmk1sognhu_A"
