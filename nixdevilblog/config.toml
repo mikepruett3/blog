@@ -3,6 +3,7 @@ baseURL = "https://www.nixdevil.com/"
 languageCode = "en-us"
 title = "A haven for Unix & Linux deviants"
 theme = "hugo-theme-bootstrap"
+#sectionPagesMenu = "main"
 
 paginate = 5
 enableRobotsTXT = true
@@ -26,3 +27,20 @@ github = "mikepruett3"
 reddit = "Human_Cartographer"
 linkedin = "in/mpruett"
 youtube = "UCZ-i9SPvPLMQmk1sognhu_A"
+
+[[menu.main]]
+name = "Dropdown"
+identifier = "dropdown"
+pre = '<i class="fas fa-fw fa-chevron-circle-down"></i>'
+[[menu.main]]
+  id = "wiki"
+  parent = "dropdown"
+  name = "Mike's Wiki"
+  url = "/mikes-wiki/"
+  pre = '<i class="fab fa-fw fa-wikipedia-w"></i>'
+[[menu.main]]
+  id = "github"
+  parent = "dropdown"
+  name = "github"
+  url = "https://github.com/mikepruett3"
+  pre = '<i class="fab fa-fw fa-github"></i>'
