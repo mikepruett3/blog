@@ -44,15 +44,19 @@ jobs:
           R -e 'blogdown::build_site(TRUE)'
 
       - name: Deploy                               
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v2
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           external_repository: mikepruett3/mikepruett3.github.io.git
-          publish_branch: main
+          #publish_branch: main
           # Without `keep_files` the `CNAME` file in the target repo will get removed
           # and the custom domain configured for GitHub pages will get dropped every 
           # time the action runs…
           keep_files: true
+        env:
+          ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          PUBLISH_BRANCH: main
+          PUBLISH_DIR: ./public
       #- name: Commit results
       #  run: |
       #    git config --local user.email "actions@github.com"
