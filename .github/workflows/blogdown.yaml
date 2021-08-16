@@ -1,0 +1,75 @@
+name: GitHub Pages
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-20.04
+    #env:
+    #  GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v1
+        with:
+          submodules: true
+
+      - name: Setup R
+        uses: r-lib/actions/setup-r@v2
+
+      #- name: Install pandoc
+      #  run: |
+      #    apt install pandoc
+
+      #- name: Cache Renv packages
+      #  uses: actions/cache@v2
+      #  with:
+      #    path: $HOME/.local/share/renv
+      #    key: r-${{ hashFiles('renv.lock') }}
+      #    restore-keys: r-
+
+      #- name: Install packages
+      #  run: |
+      #    R -e 'install.packages("renv")'
+      #    R -e 'renv::restore()'
+
+      - name: Install hugo
+        run: |
+          R -e 'blogdown::install_hugo()'
+
+      - name: Build site
+        run: |
+          R -e 'blogdown::build_site(TRUE)'
+
+      - name: Deploy                               
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          external_repository: mikepruett3/mikepruett3.github.io.git
+          publish_branch: main
+          # Without `keep_files` the `CNAME` file in the target repo will get removed
+          # and the custom domain configured for GitHub pages will get dropped every 
+          # time the action runs…
+          keep_files: true
+      #- name: Commit results
+      #  run: |
+      #    git config --local user.email "actions@github.com"
+      #    git config --local user.name "GitHub Actions"
+      #    git add --all || echo "No changes to commit"
+      #    git commit public -m 'build site' || echo "No changes to commit"
+      #    cd public
+      #    git push origin || echo "No changes to commit"
+
+      #- name: Install npm
+      #  uses: actions/setup-node@v1
+
+      #- name: Deploy to Netlify
+      #  # NETLIFY_AUTH_TOKEN and NETLIFY_SITE_ID added in the repo's secrets
+      #  env:
+      #    NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+      #    NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+      #  run: |
+      #    npm install netlify-cli -g
+      #    netlify deploy --prod
