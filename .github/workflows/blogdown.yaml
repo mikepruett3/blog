@@ -37,7 +37,7 @@ jobs:
 
       - name: Install Blogdown
         run: |
-          R -e "install.packages('blogdown',repos='http://cran.rstudio.com')"
+          R -e "install.packages('blogdown')"
 
       - name: Install hugo
         run: |
@@ -46,6 +46,8 @@ jobs:
       - name: Build site
         run: |
           R -e 'blogdown::build_site(TRUE)'
+        with:
+          path: /home/runner/work/hugo-sites/hugo-sites
 
       - name: Deploy                               
         uses: peaceiris/actions-gh-pages@v2
