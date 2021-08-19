@@ -1,7 +1,3 @@
 [submodule "nixdevilblog/themes/hugo-theme-bootstrap"]
 	path = nixdevilblog/themes/hugo-theme-bootstrap
 	url = https://github.com/razonyang/hugo-theme-bootstrap
-[submodule "nixdevilblog/public"]
-	path = nixdevilblog/public
-	url = git@github.com:mikepruett3/mikepruett3.github.io.git
-	branch = main
