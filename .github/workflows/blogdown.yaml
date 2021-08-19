@@ -16,7 +16,7 @@ jobs:
 
       - uses: jakejarvis/hugo-build-action@master
         with:
-          args: --minify --buildDrafts
+          args: --minify --buildDrafts --contentDir /home/runner/work/hugo-sites/hugo-sites/nixdevilblog
 
       #- name: Setup R
       #  uses: r-lib/actions/setup-r@v1
