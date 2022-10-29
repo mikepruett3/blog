@@ -33,12 +33,12 @@ untappd = "https://untappd.com/user/mikepruett3/checkin/1077633030"
 name = "Dropdown"
 identifier = "dropdown"
 pre = '<i class="fas fa-fw fa-chevron-circle-down"></i>'
-[[menu.main]]
-  id = "wiki"
-  parent = "dropdown"
-  name = "Mike's Wiki"
-  url = "/mikes-wiki/"
-  pre = '<i class="fab fa-fw fa-wikipedia-w"></i>'
+#[[menu.main]]
+#  id = "wiki"
+#  parent = "dropdown"
+#  name = "Mike's Wiki"
+#  url = "/mikes-wiki/"
+#  pre = '<i class="fab fa-fw fa-wikipedia-w"></i>'
 [[menu.main]]
   id = "github"
   parent = "dropdown"
