@@ -4,6 +4,7 @@ languageCode = "en-us"
 title = "A haven for Unix & Linux deviants"
 theme = "hugo-theme-bootstrap"
 #sectionPagesMenu = "main"
+#generate
 
 paginate = 5
 enableRobotsTXT = true
