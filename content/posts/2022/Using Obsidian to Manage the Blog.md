@@ -16,13 +16,11 @@ categories:
 
 ![](/uploads/obsidian-logo.png)
 
-![](/uploads/Pasted%20image%2020221030014611.png)
-
 I just recently started using [Obsidian](https://obsidian.md/) to manage my Work and Personal notes, and its pretty awesome. Obsidian is a powerful and extensible knowledge base that works on top of your local folder of plain text files.
 
 ![](/uploads/obsidian-hero.png)
 
-Had a random thought this evening, and wonderd if anyone had ever used Obsidian to manage their Hugo-Based Blog. Looks like there are a few, but each implementation seems to differ wildly.
+Had a random thought this evening, and wondered if anyone had ever used Obsidian to manage their Hugo-Based Blog. Looks like there are a few, but each implementation seems to differ wildly.
 
 So far I have done the following:
 - Opened my existing git repo for the blog in Obsidian as a new Vault
@@ -47,6 +45,6 @@ categories: []
 
 Still have some outstanding items to figure out...
 - Hugo handing attachment (image) handling, as the normal way is to just use the \/uploads\/ folder
-- Not sure how to traslate Obsidian Front-Matter Categories and Tags to work with Hugo
+- Not sure how to translate Obsidian Front-Matter Categories and Tags to work with Hugo
 
 So far though, I am really impressed!
