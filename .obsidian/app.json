@@ -2,5 +2,7 @@
   "showUnsupportedFiles": true,
   "newFileLocation": "folder",
   "newFileFolderPath": "content/posts",
-  "attachmentFolderPath": "static/uploads"
+  "attachmentFolderPath": "static/uploads",
+  "showLineNumber": false,
+  "spellcheck": true
 }
