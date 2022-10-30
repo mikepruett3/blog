@@ -1,0 +1,6 @@
+{
+  "showUnsupportedFiles": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "content/posts",
+  "attachmentFolderPath": "static/uploads"
+}
