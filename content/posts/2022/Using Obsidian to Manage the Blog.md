@@ -12,10 +12,11 @@ tags:
 - selfhosted 
 categories:
 - Updates
-- Open Source
 ---
 
 ![](/uploads/obsidian-logo.png)
+
+![[obsidian-logo.png]]
 
 I just recently started using [Obsidian](https://obsidian.md/) to manage my Work and Personal notes, and its pretty awesome. Obsidian is a powerful and extensible knowledge base that works on top of your local folder of plain text files.
 
