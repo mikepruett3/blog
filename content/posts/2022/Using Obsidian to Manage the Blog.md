@@ -15,11 +15,11 @@ categories:
 - Open Source
 ---
 
-![[/uploads/Pasted image 20221030011354.png|100]]
+![](/uploads/Pasted image 20221030011354.png)
 
 I just recently started using [Obsidian](https://obsidian.md/) to manage my Work and Personal notes, and its pretty awesome. Obsidian is a powerful and extensible knowledge base that works on top of your local folder of plain text files.
 
-![[/uploads/Pasted image 20221030011438.png]]
+![](/uploads/Pasted image 20221030011438.png)
 
 Had a random thought this evening, and wonderd if anyone had ever used Obsidian to manage their Hugo-Based Blog. Looks like there are a few, but each implementation seems to differ wildly.
 
