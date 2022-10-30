@@ -3,7 +3,7 @@ title: "Golden Monkey"
 slug: "Golden Monkey"
 date: 2022-10-06 21:15:00-05:00
 author: "Mike Pruett"
-draft: true
+draft: false
 layout: post
 comments: true
 tags:
