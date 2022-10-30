@@ -23,4 +23,4 @@ Super tasty, and good for cooling you off while grilling. Steaks were delicious,
 
 ## My Check-in's
 
-![](uploads/logic-bomb-checkin.jpg)
+![](/uploads/logic-bomb-checkin.jpg)

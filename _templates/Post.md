@@ -1,6 +1,6 @@
 ---
 title: "{{title}}"
-slug: "{{title}}"
+slug: "{{title | lower}}"
 date: {{date}} {{time}}
 author: "Mike Pruett"
 draft: true
