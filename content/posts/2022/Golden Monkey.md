@@ -25,7 +25,7 @@ Low and behold Rodeo Goat had a 9.5% ABV Tripel from [Victory Brewing Company](h
 
 ## Dinner Photo
 
-![](/uploads/golden-monkey-hero.jpg|200)
+![](/uploads/golden-monkey-hero.jpg)
 
 ## My Check-in's
 

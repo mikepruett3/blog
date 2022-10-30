@@ -3,7 +3,7 @@ title: "Logic Bomb"
 slug: "logic-bomb"
 date: 2022-07-03 10:13:00-05:00
 author: "Mike Pruett"
-draft: true
+draft: false
 layout: post
 comments: true
 tags:
