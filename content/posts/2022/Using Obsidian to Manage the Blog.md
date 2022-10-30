@@ -18,6 +18,8 @@ categories:
 
 ![]("/uploads/Pasted image 20221030014611.png")
 
+![Pasted image 20221030014611](Pasted%20image%2020221030014611.png)
+
 I just recently started using [Obsidian](https://obsidian.md/) to manage my Work and Personal notes, and its pretty awesome. Obsidian is a powerful and extensible knowledge base that works on top of your local folder of plain text files.
 
 ![](/uploads/obsidian-hero.png)

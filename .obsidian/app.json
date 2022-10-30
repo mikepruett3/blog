@@ -4,5 +4,7 @@
   "newFileFolderPath": "content/posts",
   "attachmentFolderPath": "static/uploads",
   "showLineNumber": false,
-  "spellcheck": true
+  "spellcheck": true,
+  "newLinkFormat": "shortest",
+  "useMarkdownLinks": true
 }
