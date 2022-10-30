@@ -33,11 +33,11 @@ title: "{{title}}"
 slug: "{{title}}"
 date: {{date}} {{time}}
 author: "Mike Pruett"
-draft: false
+draft: true
 layout: post
 comments: true
-tags: []
-categories: []
+tags:
+categories:
 ---
 ```
 - Configured Obsidian to use my static/uploads folder for the Attachment Folder Path
