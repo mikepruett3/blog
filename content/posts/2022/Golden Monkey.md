@@ -23,8 +23,6 @@ Normally I look for local Craft Brews first, as I like exploring for _hidden gem
 
 Low and behold Rodeo Goat had a 9.5% ABV Tripel from [Victory Brewing Company](https://victorybeer.com/), called [Golden Monkey](https://victorybeer.com/beers/golden-monkey/). Surprising refreshing, and no bitter aftertaste, like other Tripel's I have tried before. Paired well with the burger, even the heat from the Jalapeño's.
 
-## Dinner Photo
-
 ![](/uploads/golden-monkey-hero.jpg)
 
 ## My Check-in's
